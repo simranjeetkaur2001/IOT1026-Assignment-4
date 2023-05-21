@@ -1,15 +1,20 @@
-﻿using Assignment.AbstractCommand;
+﻿// Change to 'using Assignment.InterfaceCommand' when you are ready to test your interface implementation
+using Assignment.AbstractCommand;
 
 namespace Assignment;
 
 class Robot
 {
+    // These are properties, you can replace these with traditional getters/setters if you prefer.
     public int NumCommands { get; }
     public int X { get; set; }
     public int Y { get; set; }
     public bool IsPowered { get; set; }
 
     private const int DefaultCommands = 6;
+    // An array is not the preferred data structure here.
+    // You will get bonus marks if you replace the array with the preferred data structure
+    // Hint: It is NOT a list either,
     private readonly RobotCommand[] _commands;
     private int _commandsLoaded = 0;
 
@@ -40,6 +45,7 @@ class Robot
     /// <throws> </throws>
     public void Run()
     {
+        // Is this throw a good design choice? Can you think of any alternatives?
         if (!_commands.Any()) throw new InvalidOperationException("No commands have been loaded!");
         foreach (var command in _commands)
         {
