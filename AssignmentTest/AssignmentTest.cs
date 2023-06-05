@@ -6,9 +6,15 @@ namespace AssignmentTest
     public class AssignmentTests
     {
         [TestMethod]
-        public void DummyTest()
+        public void PowerTest()
         {
-            Assert.AreNotSame(1, 2);
-        }
+            Robot testRobot = new Robot();
+            testRobot.IsPowered = true;
+            Assert.AreEqual(testRobot.IsPowered, true);
+            testRobot.IsPowered = false;
+            Assert.AreEqual(testRobot.IsPowered, false);
+         }
+         
+         public void MoveWest()
     }
 }
