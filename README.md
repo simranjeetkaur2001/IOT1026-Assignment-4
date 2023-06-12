@@ -1,5 +1,5 @@
 ![grahm](https://github.com/simranjeetkaur2001/IOT1026-Assignment-4/assets/130950892/e0bc8ee9-4a7b-42bb-9cec-5f35f89f2e24)
-![Screenshot 2023-06-12 013822](https://github.com/simranjeetkaur2001/IOT1026-Assignment-4/assets/130950892/ec80f41b-69f3-4b82-b5c3-d0c9eb997535)
+(https://github.com/simranjeetkaur2001/IOT1026-Assignment-4/assets/130950892/ec80f41b-69f3-4b82-b5c3-d0c9eb997535)
 <p align="center">
 	<a href="https://github.com/simranjeetkaur2001/IOT1026-Assignment-4/actions/workflows/ci.yml">
     <img src="https://github.com/simranjeetkaur2001/IOT1026-Assignment-4/actions/workflows/ci.yml/badge.svg"/>
