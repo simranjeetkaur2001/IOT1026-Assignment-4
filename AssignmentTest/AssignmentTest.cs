@@ -15,6 +15,5 @@ namespace AssignmentTest
             Assert.AreEqual(testRobot.IsPowered, false);
          }
          
-         public void MoveWest()
     }
 }
