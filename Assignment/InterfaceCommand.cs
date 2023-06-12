@@ -1,5 +1,4 @@
-﻿namespace Assignment.InterfaceCommand
-{
+﻿namespace Assignment.InterfaceCommand;
     public interface RobotCommand
     {
         void Run(Robot robot);
@@ -79,6 +78,3 @@
             }
         }
     }
-
-
-}
